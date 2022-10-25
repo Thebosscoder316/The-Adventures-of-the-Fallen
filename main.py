@@ -120,7 +120,7 @@ def levelsel():
 import requests
 r = requests.get('https://update.samr9002.repl.co/updateavalible.py')
 if r.status_code == 200:
-    newversion = input("An Update is avalible! We recommend going to our site and downloading to the most recent version.")
+    newversion = input("An Update is avalible! We recommend going to our github and downloading to the most recent version.")
     slow_console()
 Load()
 Menu()
